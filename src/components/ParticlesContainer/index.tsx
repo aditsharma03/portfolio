@@ -1,21 +1,6 @@
-import { useCallback } from "react";
-import Particles from "react-particles";
-import type { Engine } from "@tsparticles/engine";
-import { loadFull } from "tsparticles";
 
-export function ParticlesContainer() {
-    // this customizes the component tsParticles installation
-    const customInit = useCallback(async (engine: Engine) => {
-        // this adds the bundle to tsParticles
-        await loadFull(engine);
-    }, []);
-
-    const options = {
-        /* custom options */
-    };
-
-        return <Particles
-        options={options}
-        init={customInit} />;
-
+const ParticlesContainer = () => {
+    return <></>
 }
+
+export default ParticlesContainer;

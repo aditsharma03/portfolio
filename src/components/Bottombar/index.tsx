@@ -2,6 +2,25 @@ import { Link, useLocation } from "react-router-dom";
 
 const Bottombar = () => {
 
+    const contents = [
+        {
+            name: "home",
+            to: "/"
+        },
+        {
+            name: "about",
+            to: "/about"
+        },
+        {
+            name: "projects",
+            to: "/projects"
+        },
+        {
+            name: "contact",
+            to: "/contact"
+        }
+    ];
+
     const { pathname } = useLocation();
 
 
@@ -12,18 +31,17 @@ const Bottombar = () => {
             </div>
 
             <div className="md:mr-12 w-full flex justify-end">
-                <div className="mx-2 flex flex-col justify-center">
-                    <Link to={`/`}>Home</Link>
+
+
+            { contents.map( (element, index) => {
+                return  <>
+                <div id={index.toString()} className="mx-2 text-white flex flex-col justify-center">
+                    <Link to={`${element.to}`}> {element.name}</Link>
                 </div>
-                <div className="mx-2 flex flex-col justify-center">
-                    <Link to={`/`}>Home</Link>
-                </div>
-                <div className="mx-2 flex flex-col justify-center">
-                    <Link to={`/`}>Home</Link>
-                </div>
-                <div className="mx-2 flex flex-col justify-center">
-                    <Link to={`/`}>Home</Link>
-                </div>
+                </>
+            } )
+            }
+
             </div>
 
         </div>

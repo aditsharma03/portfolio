@@ -14,7 +14,7 @@ const Home = () => {
             options={{
                 strings: [
                     '<span style="color:#434d45">Hello WOrld!!!</span>',
-                    '<span style="color:#3f5757">Welcome to my porfolio!!</span>',
+                    '<span style="color:#3f5757">Welcome to my portfolio!!</span>',
                     '<span style="color:#202072">I\'m an engineer</span>',
                     '<span style="color:#21548b">And a 3D artist.</span>',
                 ],

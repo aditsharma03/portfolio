@@ -31,7 +31,7 @@ const Contact = () => {
 
     return  <div className="h-full w-full flex justify-center items-center">
             
-            <div className="w-full text-zinc-700 flex flex-col md:flex-row gap-8 tracking-widest mx-36">
+            <div className="w-full text-zinc-700 flex flex-col justify-center md:flex-row gap-8 tracking-widest mx-36">
                 { contacts.map( (contact, index) => {
                     return <Link id={index.toString()} to={contact.url} 
                     className="hover:text-zinc-900 hover:bg-zinc-300 w-fit md:w-1/5 p-4  rounded-2xl gap-2 flex flex-row md:flex-col items-center">

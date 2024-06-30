@@ -42,8 +42,8 @@ const Bottombar = () => {
             { contents.map( (element, index) => {
                 return  <>
                 <div id={index.toString()} className="md:mx-2 text-white flex flex-col justify-center">
-                    <Link to={`${element.to}`} className="flex justify-center items-center">
-                    <div className="text-2xl mx-4 md:hidden">
+                    <Link to={`${element.to}`} className="hover:text-zinc-300 hover:underline mx-4 flex justify-center items-center">
+                    <div className="text-2xl md:text-sm md:mx-3">
                     {element.icon}
                     </div>
                     <div className="max-sm:hidden">

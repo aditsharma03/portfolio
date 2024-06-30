@@ -6,7 +6,7 @@ const Contact = () => {
 
     const contacts = [
         {
-            name: "github",
+            name: "Github",
             url: "https://github.com/aditsharma03",
             icon: <FaGithub />
         },

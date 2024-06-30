@@ -1,3 +1,5 @@
+import { FaHammer, FaHome, FaInfoCircle } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
 import { Link, useLocation } from "react-router-dom";
 
 const Bottombar = () => {
@@ -5,19 +7,23 @@ const Bottombar = () => {
     const contents = [
         {
             name: "home",
-            to: "/"
+            to: "/",
+            icon: <FaHome />
         },
         {
             name: "about",
-            to: "/about"
+            to: "/about",
+            icon: <FaInfoCircle />
         },
         {
             name: "projects",
-            to: "/projects"
+            to: "/projects",
+            icon: <FaHammer />
         },
         {
             name: "contact",
-            to: "/contact"
+            to: "/contact",
+            icon: <MdAlternateEmail />
         }
     ];
 
@@ -30,13 +36,20 @@ const Bottombar = () => {
                 {pathname==='/' ? '/home': pathname }                            
             </div>
 
-            <div className="md:mr-12 w-full flex justify-end">
+            <div className="md:mr-10 w-full flex justify-end">
 
 
             { contents.map( (element, index) => {
                 return  <>
-                <div id={index.toString()} className="mx-2 text-white flex flex-col justify-center">
-                    <Link to={`${element.to}`}> {element.name}</Link>
+                <div id={index.toString()} className="md:mx-2 text-white flex flex-col justify-center">
+                    <Link to={`${element.to}`} className="flex justify-center items-center">
+                    <div className="text-2xl mx-4 md:hidden">
+                    {element.icon}
+                    </div>
+                    <div className="max-sm:hidden">
+                    {element.name}
+                    </div>
+                    </Link>
                 </div>
                 </>
             } )

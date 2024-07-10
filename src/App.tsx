@@ -12,14 +12,17 @@ function App() {
   return (
     <div className=' font-mono bg-zinc-200 h-[100dvh] w-[100dvw] flex flex-col justify-center'>
 
-    <Topbar />
+    <div className='justify-start'><Topbar /></div>
+    
     <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/about" element={ <About /> } />
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/projects" element={ <Projects /> } />
     </Routes>
-    <Bottombar />
+
+    <div className='justify-end'><Bottombar /></div>
+    
 
 
     </div>

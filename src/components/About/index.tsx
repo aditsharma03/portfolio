@@ -13,7 +13,7 @@ const About = () => {
                     {about}
                 </div>
 
-                <div className="h-5/6 w-3/4  bg-zinc-300 rounded-2xl flex  basis-1/2  ">
+                <div className="h-5/6 w-3/4  bg-zinc-300 rounded-md flex  basis-1/2  ">
                     <img src={myDrawing} className=" mx-10 h-full w-full"></img>
                 </div>
 

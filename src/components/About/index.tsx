@@ -8,6 +8,12 @@ const About = () => {
     return  <div className="p-8 h-full w-full flex items-center max-sm:flex-col overflow-auto">
 
                 <div className="text-justify text-slate-800 p-4 pb-8 md:p-16 md:w-1/2 ">
+
+                <h2 className="text-3xl font-bold">About me:</h2>
+
+                <br />
+
+
                     {greeting}
                     <br />
                     {about}

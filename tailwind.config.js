@@ -8,7 +8,12 @@ export default {
     extend: {
 
         keyframes: {
-            custompulse: {
+            custompulse_light: {
+                '0%': { opacity: 0 },
+                '50%': { opacity: 0.05 },
+                '100%': { opacity: 0 }
+            },
+            custompulse_strong: {
                 '0%': { opacity: 0 },
                 '50%': { opacity: 0.05 },
                 '100%': { opacity: 0 }

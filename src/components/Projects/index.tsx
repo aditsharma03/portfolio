@@ -34,7 +34,7 @@ const Projects = () => {
                 w-3/4 
                 text-zinc-700 bg-zinc-200 
                 tracking-widest
-                hover:-translate-y-4 hover:bg-gray-400 duration-150
+                hover:-translate-y-4 hover:bg-zinc-400 duration-150
                 md:basis-1/2">
                 <div className="text-xl flex justify-center items-center gap-6">
                 {obj.name}

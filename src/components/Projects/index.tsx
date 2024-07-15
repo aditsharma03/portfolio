@@ -32,7 +32,7 @@ const Projects = () => {
             return (
                 <Link to={obj.link} key={index.toString()} className="p-8 m-10
                 w-3/4 
-                text-zinc-700 bg-zinc-200 
+                text-zinc-800 bg-zinc-200 
                 tracking-widest
                 hover:-translate-y-4 hover:bg-zinc-400 duration-150
                 md:basis-1/2">
@@ -48,7 +48,7 @@ const Projects = () => {
     }
     </div>   
     <div className="h-1/4  flex justify-center" >
-        <img src={deer} className="h-1/2 animate-custompulse  opacity-10" /> 
+        <img src={deer} className="h-1/2 animate-custompulselight  opacity-10" /> 
     </div>
     </div>
             

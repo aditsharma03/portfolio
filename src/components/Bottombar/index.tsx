@@ -31,7 +31,7 @@ const Bottombar = () => {
 
 
     return (
-        <div className="p-6 h-7 flex  bg-zinc-700 text-zinc-300">
+        <div className="p-6 h-7 flex  bg-zinc-900 text-zinc-200">
             <div className=" text-xl font-extrabold tracking-widest text-rose-200 w-full flex flex-col justify-center basis-1/2">
                 {pathname==='/' ? '/home': pathname }                            
             </div>

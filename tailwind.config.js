@@ -8,12 +8,12 @@ export default {
     extend: {
 
         keyframes: {
-            custompulse_light: {
+            custompulselight: {
                 '0%': { opacity: 0 },
-                '50%': { opacity: 0.05 },
+                '50%': { opacity: 0.10 },
                 '100%': { opacity: 0 }
             },
-            custompulse_strong: {
+            custompulsestrong: {
                 '0%': { opacity: 0 },
                 '50%': { opacity: 0.05 },
                 '100%': { opacity: 0 }
@@ -22,7 +22,8 @@ export default {
 
 
         animation: {
-            'custompulse': 'custompulse 2s linear infinite',
+            'custompulselight': 'custompulselight 2s linear infinite',
+            'custompulsestrong': 'custompulsestrong 2s linear infinite',
         },
 
 

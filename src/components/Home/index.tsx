@@ -6,12 +6,12 @@ const Home = () => {
 
     const name = "{ Adit Sharma}";
 
-    return <div className="cursor-crosshair h-full bg-transparent flex flex-col justify-center overflow-auto">
+    return <div className="cursor-default h-full bg-transparent flex flex-col justify-center overflow-auto">
 
-            <div className="pt-28 pb-10 text-3xl  md:text-6xl  font-bold text-zinc-600 tracking-wider subpixel-antialiased flex justify-center ">
+            <div className="pt-28 pb-10 text-3xl  md:text-6xl  font-bold text-zinc-800 tracking-wider subpixel-antialiased flex justify-center ">
                 {name}
             </div>
-            <div id="typewrite" className=" mt-4 max-sm:mb-20  p-2 text-lg bg-gray-50 text-gray-500 tracking-widest flex flex-row justify-center">
+            <div id="typewrite" className=" mt-4 max-sm:mb-20  p-2 text-lg bg-white text-zinc-500 tracking-widest flex flex-row justify-center">
             <Typewriter
             options={{
                 strings: [

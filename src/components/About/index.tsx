@@ -7,7 +7,7 @@ const About = () => {
     
     return  <div className="px-8 py-4 h-full w-full flex items-center max-sm:flex-col overflow-auto">
 
-                <div className="text-justify text-zinc-600 p-2 pb-6 md:p-16 md:w-1/2 ">
+                <div className="text-justify text-zinc-800 p-2 pb-6 md:p-16 md:w-1/2 ">
 
                 <h2 className="text-3xl font-bold">About me:</h2>
 
@@ -19,8 +19,8 @@ const About = () => {
                     {about}
                 </div>
 
-                <div className="h-5/6 w-3/4  bg-zinc-300 rounded-md flex  basis-1/2  ">
-                    <img src={myDrawing} className="p-4 mx-10 h-full w-full"></img>
+                <div className="h-5/6 w-3/4  bg-zinc-200 rounded-md flex  basis-1/2  ">
+                    <img src={myDrawing} className="p-4 mx-10 h-full w-full hover:-translate-y-4 duration-700 delay-300"></img>
                 </div>
 
 

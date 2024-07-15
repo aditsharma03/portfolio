@@ -10,7 +10,7 @@ import Projects from './components/Projects'
 function App() {
 
   return (
-    <div className=' font-mono bg-zinc-100 h-[100dvh] w-[100dvw] flex flex-col justify-center'>
+    <div className=' font-mono bg-neutral-100 h-[100dvh] w-[100dvw] flex flex-col justify-center'>
 
     <div className='justify-start'><Topbar /></div>
     

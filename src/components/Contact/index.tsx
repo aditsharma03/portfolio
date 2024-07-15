@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="w-full text-zinc-700 flex flex-col justify-center md:flex-row gap-8 tracking-widest mx-36">
                 { contacts.map( (contact, index) => {
                     return <Link id={index.toString()} to={contact.url} 
-                    className="hover:text-zinc-900 hover:bg-zinc-300 w-fit md:w-1/5 p-4  rounded gap-2 flex flex-row md:flex-col items-center">
+                    className="hover:text-zinc-900 hover:bg-zinc-300 duration-150 w-fit md:w-1/5 p-4  rounded gap-2 flex flex-row md:flex-col items-center">
                         <div className="text-5xl">{contact.icon}</div>
                         <div className="text-2xl">{contact.name}</div>
                         </Link>

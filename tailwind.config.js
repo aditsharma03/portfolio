@@ -5,7 +5,23 @@ export default {
       "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+
+        keyframes: {
+            custompulse: {
+                '0%': { opacity: 0 },
+                '50%': { opacity: 0.10 },
+                '100%': { opacity: 0 }
+            },
+        },
+
+
+        animation: {
+            'custompulse': 'custompulse 2s linear infinite',
+        },
+
+
+    },
   },
   plugins: [],
 }

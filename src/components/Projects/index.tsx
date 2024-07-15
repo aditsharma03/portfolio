@@ -48,7 +48,7 @@ const Projects = () => {
     }
     </div>   
     <div className="h-1/4  flex justify-center" >
-        <img src={deer} className="h-1/2 animate-custompulse_light  opacity-10" /> 
+        <img src={deer} className="h-1/2 animate-custompulse  opacity-10" /> 
     </div>
     </div>
             

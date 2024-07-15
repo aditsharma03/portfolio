@@ -10,7 +10,7 @@ export default {
         keyframes: {
             custompulse: {
                 '0%': { opacity: 0 },
-                '50%': { opacity: 0.10 },
+                '50%': { opacity: 0.05 },
                 '100%': { opacity: 0 }
             },
         },

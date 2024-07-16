@@ -18,7 +18,7 @@ const Art = () => {
         </div>
 
 
-        <div className='w-5/6 md:columns-3 sm:columns-1'>
+        <div className='w-5/6 md:columns-3 max-sm:columns-1'>
         {
             images.map( (image, index) => {
                 return (

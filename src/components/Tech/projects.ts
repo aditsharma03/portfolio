@@ -13,7 +13,7 @@ const projects = [
         },
         {
             title: "Smart Garbage Management System",
-            description: "his project integrates the power of Internet of things and Machine Learning. An ultrasonic sensor is used to detect percentage filled in a dustbin, whereas a CNN model is used to categorize the image data. It tries to minimise mixed waste streams locally and thereby solving the problem globally.",
+            description: "This project integrates the power of Internet of things and Machine Learning. An ultrasonic sensor is used to detect percentage filled in a dustbin, whereas a CNN model is used to categorize the image data. It tries to minimise mixed waste streams locally and thereby solving the problem globally.",
             tags: ["ML", "python"],
             link: "https://github.com/aditsharma03/waste-management-application"
         },

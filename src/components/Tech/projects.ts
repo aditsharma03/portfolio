@@ -19,7 +19,7 @@ const projects = [
         },
         {
             title: "I-Note App",
-            description: "his project integrates the power of Internet of things and Machine Learning. An ultrasonic sensor is used to detect percentage filled in a dustbin, whereas a CNN model is used to categorize the image data. It tries to minimise mixed waste streams locally and thereby solving the problem globally.",
+            description: "A notes managing application developed using Node js and Mongo DB, which encorporates the CRUD operations of a database.",
             tags: ["NodeJS", "EJS"],
             link: ""
         },
@@ -29,12 +29,6 @@ const projects = [
             tags: ["Rust"],
             link: ""
         },
-        {
-            title: "Chip-8 Emulator",
-            description: "Developed a Chip-8 Emulator in Rust programming language, which emulates all the registers and opcodes present in the original chip-8 and can run various ROMs efficiently.",
-            tags: ["Rust"],
-            link: ""
-        }
     ]
 
 

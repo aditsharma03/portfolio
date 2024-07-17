@@ -20,7 +20,7 @@ const About = () => {
                 </div>
 
                 <div className="h-5/6 w-3/4  bg-zinc-200 rounded-md flex  basis-1/2  ">
-                    <img src={myDrawing} className="p-4 mx-10 h-full w-full hover:-translate-y-4 duration-700 delay-300"></img>
+                    <img src={myDrawing} className="p-4 mx-10 h-full w-full hover:-translate-y-4 hover:scale-105 duration-500 delay-200"></img>
                 </div>
 
 
